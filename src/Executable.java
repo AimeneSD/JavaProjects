@@ -19,13 +19,14 @@ public class Executable {
 				Factorielle.main(args);;
 				break;
 			case 3:
-				Chifumi.chifumi(args);
+				Chifumi.main(args);
 				break;
 			}
 			System.out.println("Voulez-vous relancer un programme ?\nOui: 1 | Non :0");
 			relancer = scanner.nextInt();
 		
 		}while(relancer==1);
+		System.out.println("Programme terminé");
 		scanner.close();
 		}
 		

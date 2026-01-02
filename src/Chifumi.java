@@ -2,11 +2,9 @@ import java.util.Scanner;
 
 public class Chifumi {
 
-    public static void main(String[] args){
-    	
-    }
     
-    public static void chifumi(String[] args) throws InterruptedException {
+    
+    public static void main(String[] args) throws InterruptedException {
     	Scanner scanner = new Scanner(System.in);
         String relancer; // Déclaré ici pour être visible dans le while
 
@@ -97,9 +95,8 @@ public class Chifumi {
 
         // CORRECTION IMPORTANTE : .equals() pour les Strings
         } while (relancer.equalsIgnoreCase("O")); // equalsIgnoreCase accepte "o" et "O"
-        scanner.close();
         System.out.println("Merci d'avoir joué !");
-        
+        scanner.close();
     	
     }
     

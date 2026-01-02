@@ -20,8 +20,8 @@ public class JavaTPEXO3 {
 			System.out.println("Ecrire un nombre pour créer sa factorielle");
 			int j = masaisie.nextInt();
 			System.out.println(factorielle(j));
+			masaisie.close();
 		}
-		masaisie.close();
 			
 			
 		}
